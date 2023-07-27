@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Recipe | Recipe App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="single.css">
 </head>
 <body>
     <header class="header">
         <h1 class="heading-1">
             <a href="index.html">Khana-Khazana</a>
         </h1>
-        <div>
-            <h3><a href="https://www.youtube.com/">Please Visit Youtube For More Details About That  Recipe😋</a></h3>
-        </div>
     </header>
-    
+    <div class="background-image">
+        <img src="" alt="" id="recipe-image" class="recipe-image">
+    </div>
+    <div class="recipe-card">
+        <div class="recipe-details">
+            <h2 id="recipe-title"></h2>
+            <h3>Ingredients:</h3>
+            <p id="recipe-ingredients"></p>
+            <h3>Instructions:</h3>
+            <p id="recipe-instructions"></p>
+        </div>
+    </div>
     <script type="module" src="single-recipe.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
